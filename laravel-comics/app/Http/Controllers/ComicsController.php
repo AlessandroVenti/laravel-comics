@@ -220,6 +220,6 @@ class ComicsController extends Controller
                 ],
             ],
         ];
-        return view('pages.comics');
+        return view('pages.comics',compact('data'));
     }
 };
