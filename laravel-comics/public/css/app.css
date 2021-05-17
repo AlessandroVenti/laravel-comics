@@ -5,6 +5,10 @@
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 header > ul {
   height: 20px;
   display: flex;
@@ -129,5 +133,51 @@ main ul.blue-section li span {
 
 main ul.blue-section li:last-child img {
   height: 30px;
+}
+
+footer {
+  background-image: url("/storage/assets/dc-logo-bg.png"), url("/storage/assets/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: auto, cover;
+  background-position: right, center;
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px 20%;
+}
+
+footer ul {
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+footer ul li {
+  padding: 3px 0;
+}
+
+footer ul li:first-child {
+  margin-bottom: 10px;
+}
+
+footer ul li:first-child a {
+  color: white;
+  font-size: 20px;
+}
+
+footer ul li a {
+  color: grey;
+}
+
+footer > div {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+footer > div ul li {
+  padding: 3px 0;
+}
+
+footer > div ul li a {
+  color: grey;
 }
 
