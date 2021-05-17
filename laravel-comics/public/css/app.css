@@ -20,19 +20,19 @@ header > ul li {
   color: white;
 }
 
-header div {
+header > div {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 20%;
 }
 
-header div img {
+header > div img {
   height: 80px;
   flex-basis: auto;
 }
 
-header div ul li {
+header > div ul li {
   display: inline-block;
   margin: 0 10px;
   color: black;
@@ -40,7 +40,34 @@ header div ul li {
   font-weight: bold;
 }
 
-header div ul li:hover {
+header > div ul li:hover {
   color: #0095ff;
+}
+
+header .jumbotron {
+  background-image: url("/storage/assets/jumbotron.jpg");
+  height: 450px;
+  background-size: cover;
+  position: relative;
+}
+
+header .jumbotron > div {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  background-color: #0095ff;
+  padding: 25px 35px;
+  position: absolute;
+  bottom: -20px;
+}
+
+header .jumbotron > div span {
+  font-size: 23px;
+  color: white;
+}
+
+main {
+  background-color: #1a1919;
+  padding: 0 20%;
 }
 

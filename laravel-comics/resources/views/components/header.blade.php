@@ -1,10 +1,12 @@
 <header>
+
      <ul>
           <li>DC POWER VISA</li>
           <li>ADDITIONAL DC SITES</li>
      </ul>
 
      <div>
+
           <img src="{{ asset('/storage/assets/dc-logo.png') }}" alt=''>
 
           <ul>
@@ -28,4 +30,13 @@
           <input type="text">
 
      </div>
+
+     <div class="jumbotron">
+
+          <div>
+               <span>CURRENT SERIES</span>
+          </div>
+
+     </div>
+     
 </header>
