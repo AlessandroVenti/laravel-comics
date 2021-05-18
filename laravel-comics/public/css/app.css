@@ -79,6 +79,84 @@ main .currentSeries span {
 main .blueDiv {
   background-color: #0095ff;
   height: 50px;
+  position: relative;
+}
+
+main .blueDiv img {
+  position: absolute;
+  bottom: 20px;
+  left: 20%;
+}
+
+main div.detail-section1 {
+  background-color: white;
+  padding: 30px 20%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid grey;
+}
+
+main div.detail-section1 div:first-child {
+  flex-basis: 60%;
+}
+
+main div.detail-section1 div:first-child .green-box {
+  height: 50px;
+  background-color: #75d375;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+main div.detail-section1 div:first-child .green-box div:first-child {
+  text-align: left;
+}
+
+main div.detail-section1 div:first-child .green-box div:last-child span:last-child {
+  border-left: 1px solid black;
+  padding: 16px 0 16px 10px;
+}
+
+main div.detail-section1 div:last-child {
+  flex-basis: 40%;
+  text-align: right;
+}
+
+main .detail-section2 {
+  background-color: #c7c5c5;
+  padding: 20px 20%;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+main .detail-section2 div {
+  flex-basis: calc(100% / 2 - 20px);
+}
+
+main .detail-section2 div div {
+  border-bottom: 1px solid grey;
+  padding: 20px 0;
+  display: flex;
+}
+
+main .detail-section2 div div h4 {
+  color: grey;
+  margin-top: 10px;
+}
+
+main .detail-section2 div div h4 {
+  flex-basis: 30%;
+}
+
+main .detail-section2 div div a {
+  flex-basis: 70%;
+}
+
+main .detail-section2 div div.talent div {
+  justify-content: space-between;
 }
 
 main ul.movies-list {
