@@ -125,7 +125,7 @@ main div.detail-section1 div:last-child {
 }
 
 main .detail-section2 {
-  background-color: #c7c5c5;
+  background-color: #e9e7e7;
   padding: 20px 20%;
   display: flex;
   justify-content: space-between;
@@ -143,20 +143,56 @@ main .detail-section2 div div {
 }
 
 main .detail-section2 div div h4 {
+  flex-basis: 30%;
   color: grey;
-  margin-top: 10px;
 }
 
-main .detail-section2 div div h4 {
-  flex-basis: 30%;
+main .detail-section2 div div h5 {
+  flex-basis: 70%;
 }
 
 main .detail-section2 div div a {
   flex-basis: 70%;
 }
 
+main .detail-section2 div div h4,
+main .detail-section2 div div a,
+main .detail-section2 div div h5 {
+  margin-top: 10px;
+}
+
 main .detail-section2 div div.talent div {
   justify-content: space-between;
+}
+
+main .detail-section2 div div.specs {
+  justify-content: flex-start;
+}
+
+main .detail-section3 {
+  background-color: #e9e7e7;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 20%;
+  border-top: 1px solid grey;
+}
+
+main .detail-section3 div {
+  flex-basis: 25%;
+  display: flex;
+  justify-content: space-between;
+  border-right: 0.5px solid grey;
+  border-left: 0.5px solid grey;
+  padding: 10px;
+  height: 50px;
+}
+
+main .detail-section3 div h4 {
+  color: grey;
+}
+
+main .detail-section3 div img {
+  height: 30px;
 }
 
 main ul.movies-list {

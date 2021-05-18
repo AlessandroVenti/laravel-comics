@@ -40,7 +40,7 @@
           <div class="detail-section2">
 
                <div class="talent">
-                    
+
                     <div>
                          <h2>Talent</h2>
                     </div>
@@ -75,7 +75,65 @@
                </div>
 
                <div class="specs">
-                    <h2>Specs</h2>
+
+                    <div>
+                         <h2>Specs</h2>
+                    </div>
+
+                    <div>
+                         <h4>Series:</h4>
+
+                         <h5> {{ $elem['series'] }}</h5>
+                    </div>
+
+                    <div>
+                         <h4>U.S Price:</h4>
+
+                         <h5> {{ $elem['price'] }}</h5>
+                    </div>
+
+                    <div>
+                         <h4>On Sale Date:</h4>
+
+                         <h5> {{ $elem['sale_date'] }}</h5>
+                    </div>
+
+               </div>
+
+          </div>
+
+          <div class="detail-section3">
+
+               <div>
+
+                    <h4>DIGITAL COMICS</h4>
+
+                    <img src="{{ asset('/storage/assets/icons-1.png') }}" alt=''>
+
+               </div>
+
+               <div>
+
+                    <h4>SHOP DC</h4>
+
+                    <img src="{{ asset('/storage/assets/icons-2.png') }}" alt=''>
+
+               </div>
+
+               <div>
+
+                    <h4>COMIC SHOP LOCATOR</h4>
+
+                    <img src="{{ asset('/storage/assets/icons-3.png') }}" alt=''>
+
+               </div>
+
+               <div>
+
+                    <h4>SUBSCRIPTIONS</h4>
+
+                    <img src="{{ asset('/storage/assets/icons-4.png') }}" alt=''>
+
                </div>
 
           </div>

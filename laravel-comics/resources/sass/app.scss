@@ -140,7 +140,7 @@ main {
      }
 
      .detail-section2 {
-          background-color: rgb(199, 197, 197);
+          background-color: rgb(233, 231, 231);
           padding: 20px 20%;
           display: flex;
           justify-content: space-between;
@@ -155,16 +155,20 @@ main {
                     display: flex;
 
                     h4 {
+                         flex-basis: 30%;
                          color: grey;
-                         margin-top: 10px;
                     }
 
-                    h4{
-                         flex-basis: 30%;
+                    h5{
+                         flex-basis: 70%;
                     }
 
                     a {
                          flex-basis: 70%;
+                    }
+
+                    h4, a , h5 {
+                         margin-top: 10px;
                     }
                }
 
@@ -174,8 +178,38 @@ main {
                          justify-content: space-between;
                     }
                }
+
+               div.specs {
+                    justify-content: flex-start;
+               }
           }
           
+     }
+
+     .detail-section3 {
+          background-color: rgb(233, 231, 231);
+          display: flex;
+          justify-content: flex-start;
+          padding: 0 20%;
+          border-top: 1px solid grey;
+
+          div {
+               flex-basis: 25%;
+               display: flex;
+               justify-content: space-between;
+               border-right: 0.5px solid grey;
+               border-left: 0.5px solid grey;
+               padding: 10px;
+               height: 50px;
+
+               h4 {
+                    color: grey;
+               }
+
+               img {
+                    height: 30px;
+               }
+          }
      }
 
      ul.movies-list {
