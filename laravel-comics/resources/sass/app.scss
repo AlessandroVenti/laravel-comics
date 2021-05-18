@@ -99,13 +99,18 @@ main {
 
      div.detail-section1 {
           background-color: white;
-          padding: 30px 20%;
+          padding: 70px 20%;
           display: flex;
           justify-content: center;
           border-bottom: 1px solid grey;
 
           div:first-child {
                flex-basis: 60%;
+               text-align: left;
+
+               h3 {
+                    font-size: 30px;
+               }
 
                .green-box {
                     height: 50px;
@@ -118,15 +123,36 @@ main {
 
                     div:first-child {
                          text-align: left;
+
+                         span:first-child {
+                              color: rgb(223, 253, 193);
+                         }
+
+                         span:last-child {
+                              color: white;
+                         }
                     }
 
                     div:last-child {
 
+                         span:first-child {
+                              color: rgb(223, 253, 193);
+                              margin-right: 10px;
+                         }
+
                          span:last-child {
                               border-left: 1px solid black;
                               padding: 16px 0 16px 10px;
+
+                              a {
+                                   color: white;
+                              }
                          }
                     }
+               }
+
+               p {
+                    line-height: 25px;
                }
           }
 
@@ -141,7 +167,7 @@ main {
 
      .detail-section2 {
           background-color: rgb(233, 231, 231);
-          padding: 20px 20%;
+          padding: 20px 20% 150px 20%;
           display: flex;
           justify-content: space-between;
           text-align: left;
@@ -161,10 +187,12 @@ main {
 
                     h5{
                          flex-basis: 70%;
+                         font-size: 17px;
                     }
 
                     a {
                          flex-basis: 70%;
+                         color: rgb(0, 149, 255);
                     }
 
                     h4, a , h5 {
@@ -181,6 +209,10 @@ main {
 
                div.specs {
                     justify-content: flex-start;
+               }
+
+               div.blue {
+                    color:rgb(0, 149, 255);
                }
           }
           

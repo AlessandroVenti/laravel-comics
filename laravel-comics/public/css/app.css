@@ -90,7 +90,7 @@ main .blueDiv img {
 
 main div.detail-section1 {
   background-color: white;
-  padding: 30px 20%;
+  padding: 70px 20%;
   display: flex;
   justify-content: center;
   border-bottom: 1px solid grey;
@@ -98,6 +98,11 @@ main div.detail-section1 {
 
 main div.detail-section1 div:first-child {
   flex-basis: 60%;
+  text-align: left;
+}
+
+main div.detail-section1 div:first-child h3 {
+  font-size: 30px;
 }
 
 main div.detail-section1 div:first-child .green-box {
@@ -114,9 +119,30 @@ main div.detail-section1 div:first-child .green-box div:first-child {
   text-align: left;
 }
 
+main div.detail-section1 div:first-child .green-box div:first-child span:first-child {
+  color: #dffdc1;
+}
+
+main div.detail-section1 div:first-child .green-box div:first-child span:last-child {
+  color: white;
+}
+
+main div.detail-section1 div:first-child .green-box div:last-child span:first-child {
+  color: #dffdc1;
+  margin-right: 10px;
+}
+
 main div.detail-section1 div:first-child .green-box div:last-child span:last-child {
   border-left: 1px solid black;
   padding: 16px 0 16px 10px;
+}
+
+main div.detail-section1 div:first-child .green-box div:last-child span:last-child a {
+  color: white;
+}
+
+main div.detail-section1 div:first-child p {
+  line-height: 25px;
 }
 
 main div.detail-section1 div:last-child {
@@ -126,7 +152,7 @@ main div.detail-section1 div:last-child {
 
 main .detail-section2 {
   background-color: #e9e7e7;
-  padding: 20px 20%;
+  padding: 20px 20% 150px 20%;
   display: flex;
   justify-content: space-between;
   text-align: left;
@@ -149,10 +175,12 @@ main .detail-section2 div div h4 {
 
 main .detail-section2 div div h5 {
   flex-basis: 70%;
+  font-size: 17px;
 }
 
 main .detail-section2 div div a {
   flex-basis: 70%;
+  color: #0095ff;
 }
 
 main .detail-section2 div div h4,
@@ -167,6 +195,10 @@ main .detail-section2 div div.talent div {
 
 main .detail-section2 div div.specs {
   justify-content: flex-start;
+}
+
+main .detail-section2 div div.blue {
+  color: #0095ff;
 }
 
 main .detail-section3 {

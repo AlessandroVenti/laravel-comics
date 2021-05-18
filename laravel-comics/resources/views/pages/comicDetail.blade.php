@@ -17,6 +17,7 @@
 
                          <div>
                               <span>U.S PRICE: </span>
+                              <span>{{ $elem['price'] }}</span>
                               
                          </div>
 
@@ -80,7 +81,7 @@
                          <h2>Specs</h2>
                     </div>
 
-                    <div>
+                    <div class="blue">
                          <h4>Series:</h4>
 
                          <h5> {{ $elem['series'] }}</h5>
