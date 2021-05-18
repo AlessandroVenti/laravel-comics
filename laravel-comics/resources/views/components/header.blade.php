@@ -31,12 +31,6 @@
 
      </div>
 
-     <div class="jumbotron">
-
-          <div>
-               <span>CURRENT SERIES</span>
-          </div>
-
-     </div>
+     <div class="jumbotron"></div>
      
 </header>

@@ -52,27 +52,33 @@ header .jumbotron {
   background-image: url("/storage/assets/jumbotron.jpg");
   height: 450px;
   background-size: cover;
+}
+
+main {
+  background-color: #1a1919;
+  text-align: center;
   position: relative;
 }
 
-header .jumbotron > div {
+main .currentSeries {
   display: flex;
   align-items: center;
   height: 30px;
   background-color: #0095ff;
   padding: 25px 35px;
   position: absolute;
-  bottom: -20px;
+  top: -25px;
+  left: 20%;
 }
 
-header .jumbotron > div span {
+main .currentSeries span {
   font-size: 23px;
   color: white;
 }
 
-main {
-  background-color: #1a1919;
-  text-align: center;
+main .blueDiv {
+  background-color: #0095ff;
+  height: 50px;
 }
 
 main ul.movies-list {

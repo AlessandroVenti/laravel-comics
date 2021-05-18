@@ -4,11 +4,17 @@
 
     	<main>
 
+          <div class="currentSeries">
+               <span>CURRENT SERIES</span>
+          </div>
+
           <ul class="movies-list">
                @foreach ($data as $comic)
                <li>
-                    <img src="{{ $comic['thumb']}}" alt="">
-                    <h3>{{ $comic['series']}}</h3>
+                    <a href="{{ route('singleComic', $loop -> index) }}">
+                         <img src="{{ $comic['thumb']}}" alt="">
+                         <h3>{{ $comic['series']}}</h3>
+                    </a>
                </li>
                @endforeach
           </ul>

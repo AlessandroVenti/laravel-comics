@@ -7,3 +7,6 @@ Route::get('/', function () {
 });
 
 Route::get('home', 'comicsController@comicsFunction');
+
+Route::get('/elem/{index}', 'comicsController@singleComicFunction')
+        -> name('singleComic');

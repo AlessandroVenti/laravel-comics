@@ -36,11 +36,6 @@
                </li>
           </ul>
 
-          <ul>
-               <li>Shop DC</li>
-               <li>Shop DC Collectibles</li>
-          </ul>
-
           <ul></ul>
      </div>
 
